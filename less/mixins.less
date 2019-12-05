@@ -1,0 +1,21 @@
+// Mixins in here
+.background-color(@color, @width, @height, @radius, @text-color, @padding) {
+    background-color: @color;
+    width: @width;
+    height: @height;
+    border-radius: @radius;
+    color: @text-color;
+    padding: @padding;
+}
+
+.content-pick {
+    div {
+        .btn {
+            .background-color(rgb(24, 121, 76), 90%, 20%, 15%, white, 10px);
+            font-size: 20px;
+            text-align: center;
+            vertical-align: middle;
+            line-height: 30px;
+        }
+    }
+}
