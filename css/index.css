@@ -176,7 +176,7 @@ p {
 }
 @media (max-width: 500px) {
   p {
-    font-size: 1rem;
+    font-size: 1.3rem;
   }
 }
 img {
@@ -193,14 +193,8 @@ img {
   width: 100%;
   background: #1e4384;
 }
-@media (max-width: 500px) {
-  .navigation {
-    flex-direction: column;
-    align-items: center;
-  }
-}
 .navigation nav {
-  padding: 15px;
+  padding: 10px;
   display: flex;
   justify-content: space-between;
   color: white;
@@ -242,6 +236,11 @@ img {
   text-align: center;
   color: #fff;
 }
+@media (max-width: 500px) {
+  .container {
+    padding-top: 10%;
+  }
+}
 .container .hero-image {
   background-image: url("https://scontent.fdet1-1.fna.fbcdn.net/v/t1.0-9/67835753_10216418696283147_7323069696679346176_o.jpg?_nc_cat=106&_nc_ohc=gqXm6gJPb5sAQk01xRG1H2fNu6u4_tb5F8qLfoW1tWM3imIX2taPgJvdA&_nc_ht=scontent.fdet1-1.fna&oh=59b0a0efb3c78ae44024439b8f657bf9&oe=5E731964");
   background-color: #cccccc;
@@ -269,6 +268,11 @@ img {
   font-size: 3rem;
   padding-top: 2.5%;
   padding-bottom: 5%;
+}
+@media (max-width: 500px) {
+  .container .history h1 {
+    font-size: 2rem;
+  }
 }
 .container .about {
   padding: 0% 10% 2.5% 10%;
