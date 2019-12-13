@@ -196,11 +196,12 @@ img {
 .navigation nav {
   padding: 10px;
   display: flex;
+  align-items: center;
   justify-content: space-between;
   color: white;
 }
 .navigation nav a {
-  padding: 10px;
+  padding: 7px 10px;
   text-decoration: none;
   font-weight: 550;
   color: white;
@@ -208,9 +209,9 @@ img {
 .navigation nav a:hover {
   color: #1e4384;
   background: #fff;
-  border: 3px solid #1e43842d;
-  transition: all 0.5s ease;
-  padding-bottom: 3px;
+  border: 0.5px solid #1e43842d;
+  border-radius: 2px;
+  transition: all 0.3s ease;
 }
 .navigation nav img {
   max-height: 66px;
@@ -236,21 +237,28 @@ img {
   }
 }
 .container .hero-image {
-  background-image: url("https://scontent.fdet1-1.fna.fbcdn.net/v/t1.0-9/67835753_10216418696283147_7323069696679346176_o.jpg?_nc_cat=106&_nc_ohc=gqXm6gJPb5sAQk01xRG1H2fNu6u4_tb5F8qLfoW1tWM3imIX2taPgJvdA&_nc_ht=scontent.fdet1-1.fna&oh=59b0a0efb3c78ae44024439b8f657bf9&oe=5E731964");
-  background-color: #cccccc;
+  background: rgba(0, 0, 0, 0.884) url('https://scontent.fdet1-1.fna.fbcdn.net/v/t1.0-9/67835753_10216418696283147_7323069696679346176_o.jpg?_nc_cat=106&_nc_ohc=gqXm6gJPb5sAQk01xRG1H2fNu6u4_tb5F8qLfoW1tWM3imIX2taPgJvdA&_nc_ht=scontent.fdet1-1.fna&oh=59b0a0efb3c78ae44024439b8f657bf9&oe=5E731964');
   height: 600px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  vertical-align: middle;
-  padding-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.container .hero-image h1 {
+.container .hero-image div {
+  background: rgba(6, 5, 46, 0.418);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+.container .hero-image div h1 {
   color: white;
   font-weight: 900;
-  text-align: center;
-  line-height: 425px;
-  font-size: 4rem;
+  font-size: 5rem;
+  letter-spacing: 0.5em;
 }
 .container .history {
   padding: 5% 10% 5% 10%;
@@ -269,7 +277,7 @@ img {
   }
 }
 .container .about {
-  padding: 0% 10% 2.5% 10%;
+  padding: 2.5% 10%;
 }
 .container .about h1 {
   font-size: 3rem;
