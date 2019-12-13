@@ -266,6 +266,9 @@ img {
 .container .history .badenPowell {
   border: 4px solid rgba(211, 211, 211, 0.596);
 }
+.container .history p {
+  padding: 2.5% 0;
+}
 .container .history h1 {
   font-size: 3rem;
   padding-top: 2.5%;
