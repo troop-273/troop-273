@@ -191,7 +191,7 @@ img {
 .navigation {
   position: fixed;
   width: 100%;
-  background: #1e4384;
+  background: #B20000;
 }
 .navigation nav {
   padding: 10px;
@@ -204,7 +204,6 @@ img {
   text-decoration: none;
   font-weight: 550;
   color: white;
-  height: 100%;
 }
 .navigation nav a:hover {
   color: #1e4384;
@@ -214,7 +213,9 @@ img {
   padding-bottom: 3px;
 }
 .navigation nav img {
-  width: 8%;
+  max-height: 66px;
+  position: relative;
+  z-index: 1;
 }
 .footer {
   width: 100%;
