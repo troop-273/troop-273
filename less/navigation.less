@@ -3,8 +3,18 @@
     position: fixed;
     width: 100%;
     background: #B20000;
+    display: flex;
+    justify-content: space-between;
+    @media @mobile2 {
+        flex-direction: column;
+        img {
+            width: 60px;
+            margin: 0 auto;
+        }
+      }
+    
     nav {
-        padding: 10px;
+        padding: 10px 0;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -13,7 +23,10 @@
             padding: 7px 10px;
             text-decoration: none;
             font-weight: 550;
-            color: white;;
+            color: white;
+            @media @mobile2{
+                font-size: 1.25rem;
+            }
         }
 
         a:hover {
@@ -22,12 +35,6 @@
             border: .5px solid #1e43842d;
             border-radius: 2px;
             transition: all 0.3s ease;
-        }
-
-        img {
-            max-height: 66px;
-            position: relative;
-            z-index: 1;
         }
     }
 }

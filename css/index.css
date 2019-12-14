@@ -192,9 +192,20 @@ img {
   position: fixed;
   width: 100%;
   background: #B20000;
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 600px) {
+  .navigation {
+    flex-direction: column;
+  }
+  .navigation img {
+    width: 60px;
+    margin: 0 auto;
+  }
 }
 .navigation nav {
-  padding: 10px;
+  padding: 10px 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -206,17 +217,17 @@ img {
   font-weight: 550;
   color: white;
 }
+@media (max-width: 600px) {
+  .navigation nav a {
+    font-size: 1.25rem;
+  }
+}
 .navigation nav a:hover {
   color: #1e4384;
   background: #fff;
   border: 0.5px solid #1e43842d;
   border-radius: 2px;
   transition: all 0.3s ease;
-}
-.navigation nav img {
-  max-height: 66px;
-  position: relative;
-  z-index: 1;
 }
 .footer {
   width: 100%;
