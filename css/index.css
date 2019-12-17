@@ -325,10 +325,12 @@ img {
   flex-direction: column;
 }
 .container .events .calendar-div .btn {
+  display: inline-block;
   padding-top: 0.5em;
   padding-bottom: 0.5em;
   text-decoration: none;
-  width: 20%;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
   margin: 0 auto;
   color: #fff;
   background: #B20000;
