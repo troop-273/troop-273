@@ -246,6 +246,9 @@ img {
   text-align: center;
   color: #fff;
 }
+.footer p a i {
+  color: #fff;
+}
 @media (max-width: 500px) {
   .container {
     padding-top: 20%;
