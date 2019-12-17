@@ -55,9 +55,13 @@
   .events {
     padding-top: 10%;
     padding-bottom: 5%;
-    h1 {
+    .event-title {
       font-size: 3rem;
       padding-bottom: 7%;
+    }
+    h1 {
+      font-size: 3rem;
+      padding-bottom: 5%;
     }
     h2 {
       padding-bottom: 2%;
@@ -66,10 +70,23 @@
       display: flex;
       flex-direction: column;
       .btn {
-        padding-top: 1em;
-        padding-bottom: 1em;
+        padding-top: .5em;
+        padding-bottom: .5em;
         text-decoration: none;
+        width: 20%;
+        margin: 0 auto;
+        color: #fff;
+        background: #B20000;
+        border-radius: 5px;
       }
+      
+      .btn:hover {
+        color: #B20000;
+        background: #fff;
+        border: .5px solid #B20000;
+        border-radius: 2px;
+        transition: all 0.3s ease;
+    }
       .calendar {
         margin: 0 auto;
       }

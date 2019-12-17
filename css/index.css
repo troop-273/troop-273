@@ -227,7 +227,7 @@ img {
   }
 }
 .navigation nav a:hover {
-  color: #1e4384;
+  color: #B20000;
   background: #fff;
   border: 0.5px solid #1e43842d;
   border-radius: 2px;
@@ -306,9 +306,13 @@ img {
   padding-top: 10%;
   padding-bottom: 5%;
 }
-.container .events h1 {
+.container .events .event-title {
   font-size: 3rem;
   padding-bottom: 7%;
+}
+.container .events h1 {
+  font-size: 3rem;
+  padding-bottom: 5%;
 }
 .container .events h2 {
   padding-bottom: 2%;
@@ -318,9 +322,21 @@ img {
   flex-direction: column;
 }
 .container .events .calendar-div .btn {
-  padding-top: 1em;
-  padding-bottom: 1em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
   text-decoration: none;
+  width: 20%;
+  margin: 0 auto;
+  color: #fff;
+  background: #B20000;
+  border-radius: 5px;
+}
+.container .events .calendar-div .btn:hover {
+  color: #B20000;
+  background: #fff;
+  border: 0.5px solid #B20000;
+  border-radius: 2px;
+  transition: all 0.3s ease;
 }
 .container .events .calendar-div .calendar {
   margin: 0 auto;
