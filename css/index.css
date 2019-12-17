@@ -213,6 +213,7 @@ img {
   align-items: center;
   justify-content: space-between;
   color: white;
+  padding-right: 1em;
 }
 .navigation nav a {
   padding: 7px 10px;
@@ -234,7 +235,7 @@ img {
 }
 .footer {
   width: 100%;
-  background-color: #1e4384;
+  background-color: #B20000;
 }
 .footer h1 {
   padding-top: 15px;
@@ -272,7 +273,7 @@ img {
   color: white;
   font-weight: 900;
   font-size: 5rem;
-  letter-spacing: 0.5em;
+  letter-spacing: 0.1em;
 }
 .container .history {
   padding: 5% 10% 5% 10%;
@@ -311,4 +312,16 @@ img {
 }
 .container .events h2 {
   padding-bottom: 2%;
+}
+.container .events .calendar-div {
+  display: flex;
+  flex-direction: column;
+}
+.container .events .calendar-div .btn {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  text-decoration: none;
+}
+.container .events .calendar-div .calendar {
+  margin: 0 auto;
 }
