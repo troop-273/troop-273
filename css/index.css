@@ -250,7 +250,7 @@ img {
   color: #fff;
 }
 .container {
-  width: 800px;
+  width: 100%;
   max-width: 100%;
   padding-top: 6rem;
 }
@@ -357,4 +357,25 @@ img {
 .container .events .calendar-div .calendar {
   margin: 0 auto;
   padding: 3rem 0;
+}
+.container .photosTitle {
+  margin: 0 auto;
+  font-size: 3em;
+  padding: 1em;
+}
+.container .photos {
+  border: 3px solid #b20000;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px;
+  justify-content: space-evenly;
+}
+.container .photos img {
+  width: 40%;
+  margin: 5px;
+}
+@media (max-width: 500px) {
+  .container .photos img {
+    width: 100%;
+  }
 }
